@@ -1,0 +1,9 @@
+Que hacer para que arduino lo reconozca.
+Actualizamos a la ultima version.
+En Preferencias (prefecias.jpg)
+Vamos a la pestaña "Aditionl board magers URLs
+y añadimos la siguiente linea
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+Damos a enter y vamos al ide de arduino.
+Navegamos a Herramientas > Placas > Placas Manager…, ponemos la palabra “esp32” en la zona de busqueda, selecionamos la ultima version de esp32, y la istalamos
+
